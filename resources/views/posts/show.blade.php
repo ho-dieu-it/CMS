@@ -9,7 +9,7 @@
 <h1>{{ $post->title }}</h1>
 </div>
 @stop
-
+<?php echo 'test';?>
 @section('content')
 @auth('blog')
     <div class="well clearfix">
